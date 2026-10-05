@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form-box">
+
+            <h1>Create Account</h1>
+            <p>Join us today. It only takes a few minutes.</p>
+
+            <form>
+
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input 
+                        type="text" 
+                        id="name"
+                        placeholder="John Doe"
+                    >
+                </div>
+
+                <div class="input-box">
+                    <label for="email">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email"
+                        placeholder="example@email.com"
+                    >
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input 
+                        type="password" 
+                        id="password"
+                        placeholder="Enter your password"
+                    >
+                </div>
+
+                <div class="input-box">
+                    <label for="country">Country</label>
+
+                    <select id="country">
+                        <option value="">Select your country</option>
+                        <option value="somalia">Somalia</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="ethiopia">Ethiopia</option>
+                        <option value="turkey">Turkey</option>
+                        <option value="usa">United States</option>
+                    </select>
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox" id="terms">
+
+                    <label for="terms">
+                        I agree to the Terms & Conditions
+                    </label>
+                </div>
+
+                <button type="submit">
+                    Create Account
+                </button>
+
+            </form>
+
+            <p class="login">
+                Already have an account?
+                <a href="#">Login</a>
+            </p>
+
+        </div>
+
+    </div>
+
+</body>

@@ -1,0 +1,217 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: #eef2ff;
+
+    padding: 20px;
+}
+
+
+/* Main Container */
+
+.container {
+    width: 100%;
+    max-width: 450px;
+}
+
+
+/* Form Box */
+
+.form-box {
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Heading */
+
+.form-box h1 {
+    text-align: center;
+
+    font-size: 32px;
+
+    color: #1e293b;
+
+    margin-bottom: 10px;
+}
+
+.form-box > p {
+    text-align: center;
+
+    color: #64748b;
+
+    margin-bottom: 30px;
+}
+
+
+/* Input Box */
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+
+    color: #334155;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+
+/* Inputs */
+
+.input-box input,
+.input-box select {
+    width: 100%;
+
+    padding: 14px 15px;
+
+    border: 2px solid #e2e8f0;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    background: #f8fafc;
+
+    transition: 0.3s;
+}
+
+
+/* Focus */
+
+.input-box input:focus,
+.input-box select:focus {
+    border-color: #6366f1;
+
+    background: white;
+
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+
+/* Terms */
+
+.terms {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin: 5px 0 25px;
+}
+
+.terms input {
+    width: 16px;
+    height: 16px;
+}
+
+.terms label {
+    font-size: 14px;
+
+    color: #64748b;
+}
+
+
+/* Button */
+
+button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #6366f1;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4f46e5;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+}
+
+
+/* Login */
+
+.login {
+    margin-top: 25px;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    color: #64748b;
+}
+
+.login a {
+    color: #6366f1;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+
+/* 📱 Responsive */
+
+@media (max-width: 500px) {
+
+    .form-box {
+        padding: 30px 20px;
+
+        border-radius: 15px;
+    }
+
+    .form-box h1 {
+        font-size: 26px;
+    }
+
+    .input-box input,
+    .input-box select {
+        padding: 12px;
+    }
+}
+```
